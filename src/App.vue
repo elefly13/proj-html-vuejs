@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="header">
-      <Headermy/>     
+      <Header/>     
     </div>
     <div class="main">
       <Main/>
@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import Headermy from './components/Headermy.vue'
+import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 import Main from './components/Main.vue'
 
@@ -21,7 +21,7 @@ import Main from './components/Main.vue'
 export default {
   name: 'App',
   components: {
-    Headermy,
+    Header,
     Main,
     Footer
   }
