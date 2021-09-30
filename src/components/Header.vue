@@ -16,6 +16,7 @@
               </a>
             </li>
           </ul>
+          <!-- bottone header -->
           <div>
             <span class="btn-header">Schedule a workout</span>
           </div>

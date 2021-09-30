@@ -1,23 +1,22 @@
 <template>
  <div>
     <div class="wrapper">
-
       <div class="container">
         <div class="big-box">
           <div class="box left">
-
+            <FooterLeft/>
           </div>
           <div class="box center">
-
+            <FooterCenter/>
           </div>
           <div class="box right">
-
+            <FooterRight/>
           </div>
         </div>
       </div>
       <div class="container-foot-bottom">
         <div class="big-box-foot">
-
+          <FooterBottom/>
         </div>
 
       </div>
@@ -27,8 +26,18 @@
 </template>
 
 <script>
+import FooterLeft from './FooterLeft.vue'
+import FooterCenter from './FooterCenter.vue'
+import FooterRight from './FooterRight.vue'
+import FooterBottom from './FooterBottom.vue'
 export default {
   name: 'Footer',
+  components: {
+    FooterLeft,
+    FooterCenter,
+    FooterRight,
+    FooterBottom
+  }
   
 }
 </script>
@@ -51,12 +60,11 @@ export default {
     .big-box {
       display: flex;
       width: 100%;
-      height: 400px;
-      background-color: coral;
+      height: 350px;
+      
       .box {
         width: calc(100% / 3);
         height: 100%;
-        border: 1px solid black;
       }
     }
   }
@@ -65,12 +73,11 @@ export default {
     align-items: center;
     width: 100vw;
     height: 120px;
-    border-top: 1px solid $seven;
+    border-top: 0.5px solid $seven;
     .big-box-foot {
       width: 60%;
-      height: 60px;
+      height: 50px;
       margin: 0 auto;
-      background-color: blanchedalmond;
     }
   }
 }
