@@ -1,0 +1,18 @@
+// importo Font awesome per le icone
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+// importo il font 
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+
+// Importo  il file con le variabili
+@import './vars';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: $main-font;
+   
+}
