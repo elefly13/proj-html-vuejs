@@ -138,8 +138,8 @@ export default {
       .img-user {
         display: inline-block;
         overflow: hidden;
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
         img {
           width: 100%;
@@ -151,6 +151,7 @@ export default {
       }
       p {
         color: $five;
+        font-size: 20px;
       }
     }
   } 
