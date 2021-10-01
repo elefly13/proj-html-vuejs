@@ -7,6 +7,7 @@
             <h2>Certified fitness professional</h2>
             <h1>Take control of your health</h1> 
             <div class="wave">
+              <!-- <i class="fas fa-signature"></i> -->
               <!-- icona -->
             </div>  
             <h3>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet.</h3>
@@ -30,7 +31,18 @@
               </div>
             </a>
           </div>
+          
         </div>
+        <div class="link-side">
+            <div class="demos">
+              <i class="fas fa-window-maximize"></i>
+              <p>Demos</p>
+            </div>
+            <div class="on-sale">
+              <p class="green"><sup>$</sup>39</p>
+              <p>On Sale</p>
+            </div>
+          </div>
       </div>
     </div>
   </div>
@@ -88,12 +100,45 @@ export default {
           display: flex;
           margin-top: 30px;
         }
-
       }
       .box-play {
         position: absolute;
         right: 50px;
         bottom: 50%;
+      }
+    }
+    .link-side {
+      position: absolute;
+      right: 10px;
+      top: 180px;
+      width: 70px;
+      height: 100px;
+      .demos {
+        width: 70px;
+        height: 70px;
+        background-color: $one;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        color: $two;
+        text-align: center;
+        padding: 15px;
+        i {
+          font-size: 25px;
+        }
+      }
+      .on-sale {
+        width: 70px;
+        height: 70px;
+        background-color: $one;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        color: $two;
+        text-align: center;
+        padding: 10px 5px;
+        .green {
+          font-size: 25px;
+          color: rgb(6, 179, 6);
+        }
       }
 
     }

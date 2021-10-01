@@ -35,9 +35,11 @@ body {
       background-color: $six;
       padding: 10px 20px;
       margin-right: 30px;
+      transition: 0.5s;
   }
   .btn-header:hover {
       background-color: $nine;
+      opacity: 1;
   }
 
   .btn-big-blue { //bottone blu grande sezione1 main
@@ -48,9 +50,11 @@ body {
     padding: 20px 30px;
     font-size: 18px;
     text-align: center;
+    transition: 0.5s;
   }
   .btn-big-blue:hover {
     background-color: $four; 
+    opacity: 1;
   }
   .btn-big-black{ //bottone nero grande sezione1 main
     width: 250px;
@@ -61,22 +65,33 @@ body {
     font-size: 18px;
     text-align: center;
     border: 1px solid $seven;
+    transition: 0.5s;
   }
   .btn-big-black:hover {
     background-color: $one; 
     color: $two;
+    opacity: 1;
   }
   .space { //spazio vuoto
       width: 20px;
       height: 100%;
   }
 
-  .wave::before {
-      content: "\f5b7"  "\f5b7" "\f5b7";
-      font-family: FontAwesome;
+  .wave::before {  //icone zigzag gialla grande
+      content: "\f83e"  "\f83e" "\f83e";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 700;
       color: $yellow;
+      font-size: 20px;
   }
-  .play {
+  .wave-small::before {  //icone zigzag bianca piccola
+    content: "\f83e"  "\f83e" "\f83e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    color: $one;
+    font-size: 15px;
+}
+  .play { // pallino play per i video
       width: 100px;
       height: 100px;
       background-color: $one;
@@ -88,5 +103,15 @@ body {
   }
   .play:hover {
       color: $four;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, rgba(255,0,0,0) 50%, rgba($two, 0.5) 80% );
   }
   

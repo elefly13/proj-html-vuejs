@@ -5,6 +5,9 @@
        <div class="section1">
          <MainSection1/>
        </div>
+       <div class="section1">
+         <MainSection2/>
+       </div>
 
      </div>
 
@@ -14,10 +17,12 @@
 
 <script>
 import MainSection1 from './MainSection1.vue'
+import MainSection2 from './MainSection2.vue'
 export default {
   name: 'Main',
   components: {
-    MainSection1
+    MainSection1,
+    MainSection2,
   }
   
 }
