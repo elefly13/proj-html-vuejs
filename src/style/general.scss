@@ -39,3 +39,54 @@ body {
   .btn-header:hover {
       background-color: $nine;
   }
+
+  .btn-big-blue { //bottone blu grande sezione1 main
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: $six;
+    padding: 20px 30px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .btn-big-blue:hover {
+    background-color: $four; 
+  }
+  .btn-big-black{ //bottone nero grande sezione1 main
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: $two;
+    padding: 20px 30px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid $seven;
+  }
+  .btn-big-black:hover {
+    background-color: $one; 
+    color: $two;
+  }
+  .space { //spazio vuoto
+      width: 20px;
+      height: 100%;
+  }
+
+  .wave::before {
+      content: "\f5b7"  "\f5b7" "\f5b7";
+      font-family: FontAwesome;
+      color: $yellow;
+  }
+  .play {
+      width: 100px;
+      height: 100px;
+      background-color: $one;
+      border-radius: 50%;
+      color: $six;
+      text-align: center;
+      line-height: 100px;
+      font-size: 20px;
+  }
+  .play:hover {
+      color: $four;
+  }
+  

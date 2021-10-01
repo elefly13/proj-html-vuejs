@@ -2,6 +2,9 @@
  <div>
   <div class="wrapper">
      <div class="container">
+       <div class="section1">
+         <MainSection1/>
+       </div>
 
      </div>
 
@@ -10,8 +13,12 @@
 </template>
 
 <script>
+import MainSection1 from './MainSection1.vue'
 export default {
   name: 'Main',
+  components: {
+    MainSection1
+  }
   
 }
 </script>
@@ -23,8 +30,8 @@ export default {
 
 .wrapper {
   width: 100vw;
-  height: 720px;
-  background-color: $five;
+  
+  
   
 }
 </style>
