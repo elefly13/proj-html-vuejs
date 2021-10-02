@@ -43,48 +43,48 @@ body {
 }
 
 .btn-big-blue { //bottone blu grande sezione1 main
-width: 300px;
-height: 60px;
-border-radius: 30px;
-background-color: $six;
-padding: 20px 30px;
-font-size: 18px;
-text-align: center;
-transition: 0.5s;
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: $six;
+    padding: 20px 30px;
+    font-size: 18px;
+    text-align: center;
+    transition: 0.5s;
 }
 .btn-big-blue:hover {
-background-color: $four; 
-opacity: 1;
+    background-color: $four; 
+    opacity: 1;
 }
 .btn-big-red { //bottone rosso grande sezione3 main
-width: 300px;
-height: 60px;
-border-radius: 30px;
-background-color: $four;
-padding: 20px 30px;
-font-size: 18px;
-text-align: center;
-transition: 0.5s;
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: $four;
+    padding: 20px 30px;
+    font-size: 18px;
+    text-align: center;
+    transition: 0.5s;
 }
 .btn-big-red:hover {
-background-color: $six; 
-opacity: 1;
+    background-color: $six; 
+    opacity: 1;
 }
 .btn-big-black{ //bottone nero grande sezione1 main
-width: 250px;
-height: 60px;
-border-radius: 30px;
-background-color: $two;
-padding: 20px 30px;
-font-size: 18px;
-text-align: center;
-border: 1px solid $seven;
-transition: 0.5s;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: $two;
+    padding: 20px 30px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid $seven;
+    transition: 0.5s;
 }
 .btn-big-black:hover {
-background-color: $one; 
-color: $two;
-opacity: 1;
+    background-color: $one; 
+    color: $two;
+    opacity: 1;
 }
 .space { //spazio vuoto
     width: 20px;
@@ -99,11 +99,11 @@ opacity: 1;
     font-size: 20px;
 }
 .wave-small::before {  //icone zigzag bianca piccola
-content: "\f83e"  "\f83e" "\f83e";
-font-family: "Font Awesome 5 Free";
-font-weight: 700;
-color: $one;
-font-size: 15px;
+    content: "\f83e"  "\f83e" "\f83e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    color: $one;
+    font-size: 15px;
 }
 .play { // pallino play per i video
     width: 80px;
@@ -120,13 +120,13 @@ font-size: 15px;
 }
 .overlay {  // livello trasparente sfumato scuro
 
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-width: 100%;
-height: 100%;
-background-image: linear-gradient(180deg, rgba(255,0,0,0) 50%, rgba($two, 0.5) 80% );
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, rgba(255,0,0,0) 50%, rgba($two, 0.6) 80% );
 }
   

@@ -128,7 +128,7 @@ export default {
     text-align: center;
     h1 {
       font-size: 50px;
-      padding-bottom: 20px;
+      padding-bottom: 30px;
     }
     .small-box {
       display: flex;
