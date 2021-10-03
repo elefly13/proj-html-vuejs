@@ -88,6 +88,7 @@ export default {
       border-radius: 5px;
       border-bottom-right-radius: 40px;
       transition: 0.5s;
+      cursor: pointer;
       img {
         width: 100%;
         height: 100%;
@@ -111,6 +112,7 @@ export default {
     .text {
       width: 390px;
       padding-left: 35px;
+      cursor: pointer;
       h2 {
         font-size: 35px;
         margin: 10px 0;

@@ -11,8 +11,11 @@
        <div class="section3">
          <MainSection3/>
        </div>
-       <div class="section3">
+       <div class="section4">
          <MainSection4/>
+       </div>
+       <div class="section5">
+         <MainSection5/>
        </div>
 
      </div>
@@ -26,6 +29,7 @@ import MainSection1 from './MainSection1.vue'
 import MainSection2 from './MainSection2.vue'
 import MainSection3 from './MainSection3.vue'
 import MainSection4 from './MainSection4.vue'
+import MainSection5 from './MainSection5.vue'
 export default {
   name: 'Main',
   components: {
@@ -33,6 +37,7 @@ export default {
     MainSection2,
     MainSection3,
     MainSection4,
+    MainSection5,
 
   }
   

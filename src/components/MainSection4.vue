@@ -6,26 +6,28 @@
           <h2>Featured playlists</h2>
           <h3><a href="#">View all videos<i class="fas fa-chevron-right"></i></a></h3>
         </div>
-        <div class="box-cards-video">
-        <!-- inizio card video  -->
-          <div v-for="(play, index) in playList" :key="index" class="card">
-            <div class="video">
-              <div class="box-play">
-                <a href="#">
-                  <div class="play">
-                    <i class="fas fa-play"></i>
-                  </div>
-                </a>
+        <a href="#">
+          <div class="box-cards-video">
+          <!-- inizio card video  -->
+            <div v-for="(play, index) in playList" :key="index" class="card">
+              <div class="video">
+                <div class="box-play">
+                  <a href="#">
+                    <div class="play">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </a>
+                </div>
+                <img :src="require('../assets/img/' + play.video + '.jpg')" alt="">
               </div>
-              <img :src="require('../assets/img/' + play.video + '.jpg')" alt="">
+              <div class="title-video">
+                <h3><a href="#">{{play.title}}</a></h3>
+                <h4><a href="#">{{play.subTitle}}</a></h4>
+              </div>
             </div>
-            <div class="title-video">
-              <h3><a href="#">{{play.title}}</a></h3>
-              <h4><a href="#">{{play.subTitle}}</a></h4>
-            </div>
+          <!-- fine card video  -->
           </div>
-        <!-- fine card video  -->
-        </div>
+        </a>
       </div>
     </div>
   </div>
@@ -45,13 +47,13 @@ export default {
         },
         {
           video:"video7-2x",
-          title:"Thinghs & glute workout",
-          subTitle: "Increase your mobility"
+          title:"Lift, firm & perk up",
+          subTitle: "Feel young again"
         },
         {
           video:"video9-2x",
-          title:"Thinghs & glute workout",
-          subTitle: "Increase your mobility"
+          title:"Slim & trim your waist",
+          subTitle: "Shed those extra pounds"
         }
       ]
     }
@@ -92,54 +94,57 @@ export default {
         }
       }
     }
-    .box-cards-video {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      .card {
-        width: 420px;
-        .video {
+    a {
+      text-decoration: none;
+      .box-cards-video {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .card {
           width: 420px;
-          height: 250px;
-          position: relative;
-          display: inline-block;
-          overflow: hidden;
-          border-radius: 5px;
-          border-bottom-right-radius: 40px;
-          .play {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 60px;
-            height: 60px;
-            text-align: center;
-            line-height: 60px;
-            i {
-              font-size: 15px;
+          .video {
+            width: 420px;
+            height: 250px;
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 5px;
+            border-bottom-right-radius: 40px;
+            .play {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 60px;
+              height: 60px;
+              text-align: center;
+              line-height: 60px;
+              i {
+                font-size: 15px;
+              }
             }
-          }
-          img {
+            img {
+              width: 100%;
+            }
+          }  
+          .title-video {
             width: 100%;
-          }
-        }  
-        .title-video {
-          width: 100%;
-          text-align: center;
-          margin-top: 20px;
-          h3 {
-            a {
-            text-decoration: none;
-            color: $two;
-            font-size: 25px;
-            }
-          }
-          h4 {
+            text-align: center;
             margin-top: 20px;
-            a {
+            h3 {
+              a {
               text-decoration: none;
-              color: $six;
-              font-size: 18px;
+              color: $two;
+              font-size: 25px;
+              }
+            }
+            h4 {
+              margin-top: 20px;
+              a {
+                text-decoration: none;
+                color: $six;
+                font-size: 18px;
+              }
             }
           }
         }

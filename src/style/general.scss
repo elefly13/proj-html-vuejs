@@ -36,6 +36,7 @@ body {
     padding: 10px 20px;
     margin-right: 30px;
     transition: 0.5s;
+    cursor: pointer;
 }
 .btn-header:hover {
     background-color: $nine;
@@ -51,6 +52,7 @@ body {
     font-size: 18px;
     text-align: center;
     transition: 0.5s;
+    cursor: pointer;
 }
 .btn-big-blue:hover {
     background-color: $four; 
@@ -65,6 +67,7 @@ body {
     font-size: 18px;
     text-align: center;
     transition: 0.5s;
+    cursor: pointer;
 }
 .btn-big-red:hover {
     background-color: $six; 
@@ -80,6 +83,7 @@ body {
     text-align: center;
     border: 1px solid $seven;
     transition: 0.5s;
+    cursor: pointer;
 }
 .btn-big-black:hover {
     background-color: $one; 
