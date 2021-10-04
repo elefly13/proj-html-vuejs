@@ -24,6 +24,7 @@
               </div>
             </div>
           </div>
+          <!-- pulsante play video  -->
           <div class="box-play">
             <a href="#">
               <div class="play">
@@ -33,16 +34,7 @@
           </div>
           
         </div>
-        <div class="link-side">
-            <div class="demos">
-              <i class="fas fa-window-maximize"></i>
-              <p>Demos</p>
-            </div>
-            <div class="on-sale">
-              <p class="green"><sup>$</sup>39</p>
-              <p>On Sale</p>
-            </div>
-          </div>
+        
       </div>
     </div>
   </div>
@@ -105,43 +97,12 @@ export default {
         position: absolute;
         right: 50px;
         bottom: 50%;
-      }
-    }
-    .link-side {
-      position: absolute;
-      right: 10px;
-      top: 180px;
-      width: 70px;
-      height: 100px;
-      .demos {
-        width: 70px;
-        height: 70px;
-        background-color: $one;
-        border-radius: 5px;
-        margin-bottom: 5px;
-        color: $two;
-        text-align: center;
-        padding: 15px;
-        i {
-          font-size: 25px;
+        a {
+          text-decoration: none;
         }
       }
-      .on-sale {
-        width: 70px;
-        height: 70px;
-        background-color: $one;
-        border-radius: 5px;
-        margin-bottom: 5px;
-        color: $two;
-        text-align: center;
-        padding: 10px 5px;
-        .green {
-          font-size: 25px;
-          color: rgb(6, 179, 6);
-        }
-      }
-
     }
+    
   }
   
 }

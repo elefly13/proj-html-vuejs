@@ -8,6 +8,10 @@
           | All Rights Reserved | Powered by <a href="#">WordPress</a>
         </p> 
       </div>
+       <!-- ancora al top pagina -->
+      <a href="#" class="ancor-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
     </div>
   </div>
 </template>
@@ -23,9 +27,11 @@ export default {
 @import "../style/vars.scss";
 
 div {
+  position: relative;
   width: 100%;
   height: 100%;
   .container-bottom {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,6 +53,9 @@ div {
           color: $one;
         }
       }
+    }
+    a {
+        text-decoration: none;
     } 
   }
 }

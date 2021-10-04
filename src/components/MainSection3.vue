@@ -59,6 +59,9 @@ export default {
     height: 765px;
     border-radius: 5px;
     border-bottom-right-radius: 50px;
+    a {
+      text-decoration: none;
+    }
   }
   .box-right {
     float: right;

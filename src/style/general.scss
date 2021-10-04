@@ -129,8 +129,11 @@ body {
     font-size: 15px;
 }
 .play { // pallino play per i video
-    width: 80px;
-    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
     background-color: $one;
     border-radius: 50%;
     color: $six;
@@ -177,4 +180,27 @@ body {
     
     
 }
+.over-black { //sfumatura scura ultima sezione main
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(255,0,0,0) 5%, rgba($two, 0.4) 30% );
+    }
+.ancor-top { //riquadro footer ancora top
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: $seven;
+    color: $one;
+    border-radius: 5px;
+    
+}    
 
