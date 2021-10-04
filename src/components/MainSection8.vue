@@ -12,17 +12,12 @@
             <h3>Arcu auctor gravida nisl, congue sit nisi tincidunt eget proin. 
               In lacinia lacus donec sed massa  <br>in ipsum eros, tristique. Gravida suspendisse etiam in iaculis</h3>
             <!-- box bottone sezione8 -->
-            
-              <button class="btn-buy-blue">
-                Buy AvadaToday
-                <i class="fas fa-arrow-right"></i>
-              </button>
-            
+            <button class="btn-buy-blue">
+              Buy AvadaToday
+              <i class="fas fa-arrow-right"></i>
+            </button>
           </div>
-         
-          
         </div>
-        
       </div>
     </div>
   </div>
@@ -74,11 +69,8 @@ export default {
           margin-top: 40px;
           margin-bottom: 40px;
         }
-        
       }
     } 
-    
   }
-  
 }
 </style>
