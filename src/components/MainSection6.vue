@@ -72,6 +72,7 @@ export default {
       text-align: center;
       padding: 80px 50px;
       cursor: pointer;
+      transition: 0.5s;
       i {
         font-size: 50px;
       }
@@ -98,6 +99,9 @@ export default {
           margin-left: 15px;
         }
       }
+    }
+    .card:hover {
+      transform: scale(1.05);
     } 
   }
 }
