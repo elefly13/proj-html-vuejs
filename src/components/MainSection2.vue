@@ -123,6 +123,7 @@ export default {
       }
     }
   }
+  
   .big-text {
     position: absolute;
     width: 50%;

@@ -87,7 +87,6 @@ export default {
 .wrapper {
   width: 100vw;
   .link-side {
-
       position: fixed;
       z-index: 99;
       right: 10px;
@@ -103,6 +102,7 @@ export default {
         color: $two;
         text-align: center;
         padding: 15px;
+        cursor: pointer;
         i {
           font-size: 25px;
         }
@@ -116,6 +116,7 @@ export default {
         color: $two;
         text-align: center;
         padding: 10px 5px;
+        cursor: pointer;
         .green {
           font-size: 25px;
           color: rgb(6, 179, 6);

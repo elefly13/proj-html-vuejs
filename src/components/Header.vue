@@ -55,6 +55,10 @@ export default {
           new: false
         },
         {
+          link: "Blog",
+          new: false
+        },
+        {
           link: "Store",
           new: true
         }, 

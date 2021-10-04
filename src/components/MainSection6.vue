@@ -1,13 +1,14 @@
 <template>
   <div>
     <div class="wrapper">
+      
       <div class="box-cards">
         <div  v-for="(card, index) in cardsList" :key="index" class="card">
+          <div class="border"></div>
           <i class="fas" :class="card.icon"></i>  <!-- icone provvisorie -->
           <h2>{{card.title}}</h2>
           <h3>{{card.subtitle}}</h3>
-          <p>{{card.content}}
-          </p>
+          <p>{{card.content}}</p>
           <a href="#">{{card.link}}<i class="fas fa-chevron-right"></i></a>
         </div>
       </div>
@@ -65,14 +66,12 @@ export default {
     width: 60%;
     margin: 0 auto;
     .card {
+      position: relative;
       width: 400px;
       height: 560px;
-      border: 5px solid $six;
       border-radius: 10px;
       text-align: center;
       padding: 80px 50px;
-      cursor: pointer;
-      transition: 0.5s;
       i {
         font-size: 50px;
       }
@@ -100,9 +99,6 @@ export default {
         }
       }
     }
-    .card:hover {
-      transform: scale(1.05);
-    } 
   }
 }
 </style>
