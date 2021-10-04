@@ -90,6 +90,25 @@ body {
     color: $two;
     opacity: 1;
 }
+.btn-buy-blue{ //bottone blue  sezione8 main
+    width: 250px;
+    height: 60px;
+    border: none;
+    color: $one;
+    border-radius: 30px;
+    background-color: $six;
+    padding: 20px 30px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn-buy-blue:hover {
+    background-color: $four; 
+    color: $one;
+    opacity: 1;
+}
 .space { //spazio vuoto
     width: 20px;
     height: 100%;
