@@ -17,9 +17,7 @@
             </li>
           </ul>
           <!-- bottone header -->
-          <div>
-            <span class="btn-header">Schedule a workout</span>
-          </div>
+            <button class="btn-header">Schedule a workout</button>
           <!-- link di navigazione icone -->
           <ul>
             <li v-for="(icon, index) in iconsHeader" :key="index">
@@ -88,6 +86,7 @@ export default {
     .box-link {
       display: flex;
       justify-content: center;
+      align-items: center;
       ul {
         display: flex;
         flex-direction: row;
