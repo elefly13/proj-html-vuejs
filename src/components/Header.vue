@@ -56,7 +56,7 @@ export default {
         },
         {
           link: "Blog",
-          new: false
+          new: true
         },
         {
           link: "Store",
